@@ -2,7 +2,7 @@
 
 > Crawl HKUST course info by supplying a list of course Codes
 
-[Imgur](https://i.imgur.com/6sPYymv.png)
+![Imgur](https://i.imgur.com/6sPYymv.png)
 
 # To Use
 0. Run `yarn install`
