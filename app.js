@@ -19,7 +19,6 @@ function readCouresList() {
 
 function getCourseDetails(courseCode) {
   return new Promise((resolve, reject) => {
-    http://prog-crs.ust.hk/ugcourse/2017-18/search?keyword=COMP2711
     request(`http://prog-crs.ust.hk/ugcourse/2017-18/search?keyword=${courseCode}`, function (error, response, html) {
       if (error) return reject(error);
 
