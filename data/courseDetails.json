@@ -1,0 +1,183 @@
+[
+  {
+    "code": "IELM2200",
+    "title": "Engineering Management",
+    "credit": "3 Credit(s)",
+    "description": "Techniques relating to modeling and analysis and management of engineering operations; productivity assessment and improvement, quality assessment and improvement; principles of behavioral science and its application to engineering management."
+  },
+  {
+    "code": "MATH1013",
+    "title": "Calculus IB",
+    "credit": "3 Credit(s)",
+    "description": "This is an introductory course in one-variable calculus, the first in the Calculus I and II sequence, designed for students that have taken HKDSE Mathematics Extended Module M1/M2. Topics include functions and their limits, continuity, derivatives and rules of differentiation, applications of derivatives, and basic integral calculus."
+  },
+  {
+    "code": "PHYS1112",
+    "title": "General Physics I with Calculus",
+    "credit": "3 Credit(s)",
+    "description": "PHYS 1111 and PHYS 1112 target students who have learned the most basic knowledge in physics in high school. Students with more advanced physics background should consider taking PHYS 1312. PHYS 1112 employs a calculus-based approach. Students without knowledge of calculus should take PHYS 1111 instead. Key topics include motions and Newton’s Laws, work and energy, conservation of energy and momentum, rotation, rigid body, simple harmonic and damped oscillations, forced oscillations, standing waves and sound waves, kinetic theory and the laws of thermodynamics. For students under the 4-year degree only. Students without the physics prerequisite but have taken PHYS 1001 or equivalent, and/or without the mathematics prerequisite but have taken MATH 1012/ MATH 1013/ MATH 1020/ MATH 1023 or equivalent may seek instructor’s approval for enrolling in the course."
+  },
+  {
+    "code": "SCIE1110",
+    "title": "Great Ideas in Science",
+    "credit": "3 Credit(s)",
+    "description": "The course is designed for students with no science background. Using historical great breakthroughs in science and mathematics as examples, the course intends to inspire students to appreciate scientific approaches and develop a genuine appreciation towards human curiosity in the understanding of the world and the power of ingenuity observation to overcome ignorance. The course is composed of 4 modules covering topics in mathematics, physics, chemistry and biology. Examples of topics include geometry, quantum physics, forensic chemistry and theory of evolution. In addition, the course develops students' sense of enquiry thinking and foundation of scientific methods through various active learning processes."
+  },
+  {
+    "code": "COMP2711",
+    "title": "Honors Discrete Mathematical Tools for Computer Science",
+    "credit": "4 Credit(s)",
+    "description": "Discrete mathematics needed for the study of computer science: sets, functions; propositional logic, predicate logic, rules of inference, proof techniques; pigeonhole principle, basic and generalized permutations and combinations, binomial coefficients, inclusion-exclusion principle; probability theory, Bayes theorem, expectation, variance, random variables, hashing; cryptography and modular arithmetic, Euclid’s division theorem, multiplicative inverse, divisibility, RSA cryptosystem, Chinese remainder theorem; mathematical induction, strong induction and well-ordering property, recursion, recurrence relations; graph representation, isomorphism, connectivity, Euler paths, Hamilton paths, planarity, graph coloring. Gentle introduction to many discrete mathematical concepts that will appear later in more advanced computer science courses."
+  },
+  {
+    "code": "MATH2111",
+    "title": "Matrix Algebra and Applications",
+    "credit": "3 Credit(s)",
+    "description": "Systems of linear equations; vector spaces; linear transformations; matrix representation of linear transformations; linear operators, eigenvalues and eigenvectors; similarity invariants and canonical forms."
+  },
+  {
+    "code": "COMP4331",
+    "title": "Data Mining",
+    "credit": "3 Credit(s)",
+    "description": "This course will provide an introduction to concepts and techniques in the field of data mining. Materials include an introduction to data warehousing and OLAP, data preprocessing and the techniques used to explore the large quantities of data for the discovery of predictive models and knowledge. The course will include techniques such as nearest neighbor, decision tress, neural networks, Bayesian networks and Naive Bayes, rule-based methods, association analysis and clustering, as well as social networks and data mining applications in business and finance applications, and other emerging data mining subareas. Students learn the materials by attending lectures and implementing and applying different data analysis and mining techniques to large datasets throughout the semester."
+  },
+  {
+    "code": "COMP4981",
+    "title": "Final Year Thesis",
+    "credit": "6 Credit(s)",
+    "description": "Students are expected to conduct research under the supervision of a faculty member, summarize their work in an individual thesis and make a defense at the end. Credit load will be spread over the year. For students in the BEng in Computer Science and BEng in Computer Engineering programs under the four-year degree only. Instructor's approval is required for enrollment in the course."
+  },
+  {
+    "code": "COMP2011",
+    "title": "Honors Object-Oriented Programming and Data Structures",
+    "credit": "5 Credit(s)",
+    "description": "This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming (OOP) and data structures using an OOP language. It covers the major materials of COMP2011 and COMP2012, and its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include: functions; pointers; abstract data types and their class implementation; static and dynamic construction and destruction of objects; data member and member functions; public interface and encapsulation; class hierarchies; polymorphism; inheritance and dynamic binding; standard template library; generic programming using templates; object-oriented view of data structures: linked lists, queues, stacks, trees, and their algorithms such as searching, sorting and hashing."
+  },
+  {
+    "code": "COMP1021",
+    "title": "Introduction to Computer Science",
+    "credit": "3 Credit(s)",
+    "description": "This course introduces students to the world of Computer Science. Students will experience a range of fun and interesting areas from the world of computing, such as game programming, web programming, user interface design and computer graphics. These will be explored largely by programming in the Python language."
+  },
+  {
+    "code": "MATH1014",
+    "title": "Calculus II",
+    "credit": "3 Credit(s)",
+    "description": "This is an introductory course in one-variable calculus, the second in the MATH 1013 – MATH 1014 sequence. Topics include applications of definite integral, improper integrals, vectors, curves and parametric equations, modeling with differential equations, solving simple differential equations, infinite sequences and series, power series and Taylor series."
+  },
+  {
+    "code": "MECH1902",
+    "title": "Energy Systems in a Sustainable World",
+    "credit": "3 Credit(s)",
+    "description": "Various fuels used by mankind, fossil and renewable sources; power generation technologies and the controversies; energy efficient technologies and the applications in buildings and consumable products; energy efficient manufacturing technologies; low energy infrastructure and impact to modern life style; myths behind sustainable energy systems and the debates; energy entrepreneurship, case studies and social impact."
+  },
+  {
+    "code": "PHYS1114",
+    "title": "General Physics II",
+    "credit": "3 Credit(s)",
+    "description": "This course targets students who have learned the most basic knowledge in physics in high school. Students with more advanced physics background should consider taking PHYS 1314. This course employs a calculus‐based approach. Key topics include Coulomb’s law, electric field and potential, Gauss’ law, capacitance, circuits, magnetic force and field, Ampere’s law, electromagnetic induction, AC circuit, Maxwell’s equations, electromagnetic waves, geometric optics, interference and diffraction."
+  },
+  {
+    "code": "COMP3111",
+    "title": "Honors Software Engineering",
+    "credit": "4 Credit(s)",
+    "description": "General methodologies, techniques, and tools for planning, designing, implementing, validating, and maintaining large-scale software systems. Collaborative development environment, automatic static analysis, and testing techniques. Open source project development methodologies and techniques."
+  },
+  {
+    "code": "COMP3511",
+    "title": "Operating Systems",
+    "credit": "3 Credit(s)",
+    "description": "Principles, purpose and structure of operating systems; processes, threads, and multi-threaded programming; CPU scheduling; synchronization, mutual exclusion; memory management and virtual memory; device management; file systems, security and protection."
+  },
+  {
+    "code": "COMP3711",
+    "title": "Honors Design and Analysis of Algorithms",
+    "credit": "4 Credit(s)",
+    "description": "Techniques for designing algorithms, proving their correctness, and analyzing their running times. Topics covered include: sorting, selection, heaps, balanced search trees, divide-and-conquer, greedy algorithms, dynamic programming, and graph algorithms. The class will also provide an introduction to advanced techniques such as amortized analysis and the design of randomized and approximation algorithms, as well as providing exposure to more advanced algorithmic solutions to optimization problems, e.g. linear programming and network flow."
+  },
+  {
+    "code": "COMP4021",
+    "title": "Internet Computing",
+    "credit": "3 Credit(s)",
+    "description": "Technologies and standards for World Wide Web (WWW), user interfaces and Browsers, authoring tools, Internet protocols, Internet servers, database connectivity, Robots, Search engines, server-side programming, client-side programming, security and privacy, recent advances."
+  },
+  {
+    "code": "ISOM1380",
+    "title": "Technology and Innovation: Social and Business Perspectives",
+    "credit": "3 Credit(s)",
+    "description": "This course describes the development of technology and innovation from social and business perspectives.  It covers the technology side of innovations, how an invention can be developed into a successful commercial product, the role of innovation in society and how innovations are created from a socioeconomic perspective.  It highlights that successful development and adoption of innovative products relies not only on the technology itself but also a complex process that is subject to the impact of cultural, political, economic and managerial factors."
+  },
+  {
+    "code": "MATH2411",
+    "title": "Applied Statistics",
+    "credit": "4 Credit(s)",
+    "description": "A systematic introduction to statistical inference, including the necessary probabilistic background, point and interval estimation, hypothesis testing."
+  },
+  {
+    "code": "IELM4320",
+    "title": "Design Thinking",
+    "credit": "3 Credit(s)",
+    "description": "This course introduces important aspects of modern day \"product\" design integrating technology, art, business and innovation. The course will focus on how to elicit needs of customers, structure problems, create ideas, evaluate alternatives and then construct aesthetically pleasing and functional prototypes. Emphasis will be on creating concepts and taking them through uncertainties to achieve realistic and working prototypes. Instructor's approval is required for enrollment in the course."
+  },
+  {
+    "code": "COMP3311",
+    "title": "Database Management Systems",
+    "credit": "3 Credit(s)",
+    "description": "Principles of database systems; conceptual modeling and data models; logical and physical database design; query languages and query processing; database services including concurrency, crash recovery, security and integrity. Hands-on DBMS experience."
+  },
+  {
+    "code": "COMP4321",
+    "title": "Search Engines for Web and Enterprise Data",
+    "credit": "3 Credit(s)",
+    "description": "Text retrieval models, vector space model, document ranking, performance evaluation; indexing, pattern matching, relevance feedback, clustering; web search engines, authority-based ranking; enterprise data management, content creation, meta data, taxonomy, ontology; semantic web, digital libraries and knowledge management applications."
+  },
+  {
+    "code": "COMP4911",
+    "title": "IT Entrepreneurship",
+    "credit": "3 Credit(s)",
+    "description": "Basic elements of starting a new business in information technology; exploiting an \"unfair\" advantage; preparing a business plan; arranging financial support; accounting and legal requirements; exit strategy. Case studies of successful and failed ventures in Hong Kong and elsewhere."
+  },
+  {
+    "code": "ISOM3320",
+    "title": "Internet Applications Development",
+    "credit": "4 Credit(s)",
+    "description": "This course intends to cover Internet applications development through programming. Major topics include object-oriented development approaches, advanced GUI building blocks, networking and database connectivity and so on.  Students will learn and practice a high-level programming language for the implementation of practical Internet applications."
+  },
+  {
+    "code": "COMP4621",
+    "title": "Computer Communication Networks I",
+    "credit": "3 Credit(s)",
+    "description": "Principles of computer network architectures and communication protocols; the OSI reference model; switching and multiplexing techniques; data link, network, transport and application layers; LAN and medium access protocols; network programming."
+  },
+  {
+    "code": "FINA2303",
+    "title": "Financial Management",
+    "credit": "3 Credit(s)",
+    "description": "For SB&M students only. This course provides an introduction to corporate finance. Topics include time value of money, bond and stock valuation, capital budgeting, risk and return concepts and cost of capital."
+  },
+  { "code": "COMP2012", "title": null, "credit": null, "description": null },
+  {
+    "code": "COMP2611",
+    "title": "Computer Organization",
+    "credit": "4 Credit(s)",
+    "description": "Inner workings of modern digital computer systems and tradeoffs at the hardware-software interface. Topics include: instructions set design, memory systems, input-output systems, interrupts and exceptions, pipelining, performance and cost analysis, assembly language programming, and a survey of advanced architectures."
+  },
+  {
+    "code": "FINA1303",
+    "title": "Introduction to Financial Markets",
+    "credit": "3 Credit(s)",
+    "description": "Introduction to money and capital markets; money instruments; financial institutions; and markets for various securities, including stocks, bonds, and derivatives; and the currency pegging system in Hong Kong."
+  },
+  {
+    "code": "HUMA1000",
+    "title": "Cultures and Values",
+    "credit": "3 Credit(s)",
+    "description": "The objectives of the course are for communicative capacity building through humanities knowledge and for enrichment of values and perspectives corresponding to the mission and vision of UST, rather than for enhancement of knowledge in specific branch of humanities. Values explored in this course will be drawn from those closely related to the mission and vision of UST like humanistic concerns of others and the environment, respect of differences and justice, communicative sensitivity, complexity of humanity, potential bias and fallacy in popular perceptions, values, and stereotyping, among others. The humanities disciplinary approaches will be drawn from history, philosophy, literature, anthropology, linguistics and art. The course is offered in separate sections, each has its specific values and approach identified by the teacher."
+  },
+  {
+    "code": "SOSC1440",
+    "title": "Introduction to Economics",
+    "credit": "3 Credit(s)",
+    "description": "This course provides an overview of both microeconomics and macroeconomics. It demonstrates how tools of economics can be applied for analyzing socioeconomic changes and the effects of government policies. Topics for the applications are China-related and carry global relevance."
+  }
+]
