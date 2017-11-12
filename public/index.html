@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <table id="course-details">
+      <thead>
+        <th>Coruse Code</th>
+        <th>Title</th>
+        <th>Credits</th>
+        <th>Descriptions</th>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script>
+      getCourseDetails()
+        .then(courseDetails => {
+          renderToTable(courseDetails, '#course-details');
+        });
+
+      function getCourseDetails() {
+        return fetch('/course-details')
+          .then(response => {
+            return response.json();
+          })
+      }
+
+      function renderToTable(courseDetails, tableSelector) {
+        const tableBody = document.querySelector(`${tableSelector} tbody`);
+
+        courseDetails.forEach(courseDetail => {
+          const tr = document.createElement('tr');
+          const cells = ['code', 'title', 'credit', 'description'];
+
+          cells.forEach(cellKey => {
+            const td = document.createElement('td');
+            td.innerText = courseDetail[cellKey];
+            tr.appendChild(td);
+          });
+
+          tableBody.appendChild(tr);
+        });
+      }
+    </script>
+  </body>
+</html>

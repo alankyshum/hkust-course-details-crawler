@@ -2,15 +2,35 @@ const request = require('request');
 const cheerio = require('cheerio');
 const fs = require('fs');
 const beautify = require("json-beautify");
+const express = require('express');
 
-const COURSE_INPUT = readCouresList();
-const courseDetailsPromiseArray = COURSE_INPUT.courseList.map(getCourseDetails);
+startServer();
+// saveCourseDetails();
 
-Promise.all(courseDetailsPromiseArray)
-  .then(allCourseDetails => {
-    console.info(`[APP] Done. ${allCourseDetails.length} records are crawled and saved`);
-    saveJSONtoFile(allCourseDetails, './data/courseDetails.json');
-  })
+function startServer() {
+  const app = express();
+
+  app.get('/course-details', (req, res) => {
+    const detailsFile = fs.readFileSync('./data/courseDetails.json');
+    res.send(JSON.parse(detailsFile));
+  });
+
+  app.use(express.static('public'));
+
+  app.listen(3030);
+  console.log('opened port at 3030');
+}
+
+function saveCourseDetails() {
+  const COURSE_INPUT = readCouresList();
+  const courseDetailsPromiseArray = COURSE_INPUT.courseList.map(getCourseDetails);
+
+  Promise.all(courseDetailsPromiseArray)
+    .then(allCourseDetails => {
+      console.info(`[APP] Done. ${allCourseDetails.length} records are crawled and saved`);
+      saveJSONtoFile(allCourseDetails, './data/courseDetails.json');
+    });
+}
 
 function readCouresList() {
   const courseList = fs.readFileSync('./data/courseList.json', 'utf8');
